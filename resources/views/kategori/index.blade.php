@@ -33,25 +33,16 @@
               </div>
               <!-- /.card-header -->
               <div class="card-body">
-            <form>
-                <div class="row">
-                <div class="col-sm-12">
-                    <!-- text input -->
-                    <div class="form-group">
-                    <label>Nama</label>
-                    <input type="text" class="form-control" placeholder="Masukkan Kategori">
+                <form>
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <!-- text input -->
+                      <div class="form-group">
+                        <label>Nama</label>
+                        <input type="text" class="form-control" placeholder="Masukkan Kategori">
+                      </div>
                     </div>
-                </div>
-        </div>
-            <div class="row">
-                <div class="col-sm-12">
-                    <!-- text input -->
-                    <div class="form-group">
-                    <label>Slug</label>
-                    <input type="text" class="form-control" placeholder="Masukkan Kategori">
-                    </div>
-                    </div>
-                </div>
+                  </div>
                     <div class="row">
                         <div class="col-sm-12">
                             <!-- text input -->

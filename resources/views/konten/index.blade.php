@@ -24,33 +24,51 @@
       </div><!-- /.container-fluid -->
     </section>
 
-    <div class="container-fluid">
-    <div class="card card-success">
+<div class="container-fluid">
+  <div class="card card-success">
     <div class="card-header">
-    <h3 class="card-title">Dinas Taman Nasional</h3>
+      <h3 class="card-title">Dinas Taman Nasional</h3>
     </div>
     <!-- /.card-header -->
     <!-- form start -->
-    <form role="form">
-    <div class="card-body">
+    <form method="POST" action="/konten" accept-charset="utf-8" enctype="multipart/form-data">
+      @csrf
+      <div class="card-body">
         <div class="form-group">
-        <label for="text">Judul</label>
-        <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Judul Artikel">
+          <label for="judul">Judul</label>
+            <input type="text" class="form-control" id="judul" placeholder="Judul Artikel" name="judul"  value="{{ old('judul')}}">
+            @error('judul')
+              <div class="invalid-feedback">{{ $message }}</div>
+            @enderror
         </div>
         <div class="form-group">
-        <label for="exampleInputFile">Thumbnail</label>
+          <label>Kategori</label>
+            <select class="form-control" id="kategori" name="kategori">
+              @foreach($kategori as $row)
+                <option>{{ $row->kategori }}</option>
+              @endforeach
+            </select>
+            @error('kategori')
+              <div class="invalid-feedback">{{ $message }}</div>
+            @enderror
+        </div> 
+        <div class="form-group">
+        <label for="thumbnail">Thumbnail</label>
         <div class="input-group">
-            <div class="custom-file">
-            <input type="file" class="custom-file-input" id="exampleInputFile">
-            <label class="custom-file-label" for="exampleInputFile">Tekan Disini</label>
-            </div>
+          <div class="custom-file">
+            <input type="file" class="custom-file-input" id="thumbnail" name="thumbnail" value="{{ old('thumbnail')}}">
+            @error('thumbnail')
+              <div class="invalid-feedback">{{ $message }}</div>
+            @enderror
+            <label class="custom-file-label" for="thumbnail">Tekan Disini</label>
+          </div>
         </div>
-        </div>
+      </div>
     </div>
         <!-- /.card-body -->
+  </div>
+</div>
         
-    </div>
-    </div>
     <!-- Main content -->
     <section class="content">
       <div class="row">
@@ -71,12 +89,13 @@
             <!-- /.card-header -->
             <div class="card-body pad">
               <div class="mb-3">
-                <textarea class="textarea" placeholder="Place some text here"
-                          style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
+                <textarea name="isi" class="textarea" placeholder="Place some text here" style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;" id="isi" name="isi" value="{{ old('isi')}}"></textarea>
+                @error('isi')
+                  <div class="invalid-feedback">{{ $message }}</div>
+                @enderror
               </div>
               <button type="submit" class="btn btn-primary float-right">Publish</button>
             </div>
-            
           </div>
         </div>
         <!-- /.col-->

@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Konten;
+use App\AkomodasiDalam;
+use App\AkomodasiLuar;
+use App\Kategori;
 use Illuminate\Http\Request;
 
 class KontenController extends Controller
@@ -14,7 +17,10 @@ class KontenController extends Controller
      */
     public function index()
     {
-        return view('dashboard.main');
+        $konten = Konten::all();
+        $akomodasidlm = AkomodasiDalam::all();
+        $akomodasiluar = AkomodasiLuar::all();
+        return view('dashboard.main', compact('konten','akomodasidlm','akomodasiluar'));
     }
 
     /**
@@ -24,7 +30,8 @@ class KontenController extends Controller
      */
     public function create()
     {
-        return view('konten.index');
+        $kategori = Kategori::all();
+        return view('konten.index', compact('kategori'));
     }
 
     /**
@@ -35,7 +42,21 @@ class KontenController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'judul' => 'required' ,
+            'kategori' => 'required' ,
+            'isi' => 'required' ,
+            'thumbnail' => 'required'
+        ]);
+
+		Konten::create([
+			'judul' => $request->judul,
+			'kategori' => $request->kategori,
+			'isi' => $request->isi,
+            'thumbnail' => $request->thumbnail
+        ]);
+
+		return redirect('dashboard.main');
     }
 
     /**
@@ -80,6 +101,7 @@ class KontenController extends Controller
      */
     public function destroy(Konten $konten)
     {
-        //
+        Konten::where('id_konten', $id)->first()->delete();
+        return redirect('dashboard.main');
     }
 }

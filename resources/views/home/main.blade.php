@@ -12,7 +12,7 @@
 			}
 
 			header {
-				background: rgba(26, 23, 23, 0.9); 
+				background: transparent; 
 			}
 
 			.header-scrolled .nav-menu a {
@@ -191,7 +191,7 @@
 		<div class="row">
 			<div class="col-lg-3 col-md-12">
 				<div class="single-feature">
-					<a href="lokasi" class="title">
+					<a href="peta" class="title">
 						<div class="radius">
 							<span class="lnr lnr-map-marker"></span>
 							</div>
@@ -205,19 +205,10 @@
 			<div class="col-lg-3 col-md-12">
 				<div class="single-feature">
 					<a href="akomodasi" class="title">
+					<div class="radius">
 						<span class="lnr lnr-apartment"></span>
 						<h3>Akomodasi</h3>
-					</a>
-					<p>
-						Usage of the Internet is becoming more common due to rapid advancement of technology and power.
-					</p>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-12">
-				<div class="single-feature">
-					<a href="kalender" class="title">
-						<span class="lnr lnr-calendar-full"></span>
-						<h3>Kalender Event</h3>
+					</div>
 					</a>
 					<p>
 						Usage of the Internet is becoming more common due to rapid advancement of technology and power.
@@ -227,15 +218,30 @@
 			<div class="col-lg-3 col-md-12">
 				<div class="single-feature">
 					<a href="galeri" class="title">
-						<span class="lnr lnr-camera"></span>
-						<h3>Galeri</h3>
+						<div class="radius">
+							<span class="lnr lnr-camera"></span>
+							<h3>Galeri</h3>
+						</div>
 					</a>
 					<p>
 						Usage of the Internet is becoming more common due to rapid advancement of technology and power.
 					</p>
 				</div>
 			</div>
-
+			<div class="col-lg-3 col-md-12">
+				<div class="single-feature">
+					<a href="biaya" class="title">
+					<div class="radius">
+						<span class="lnr lnr-database"></span>
+						<h3>Biaya</h3>
+					</div>
+					</a>
+					<p>
+						Usage of the Internet is becoming more common due to rapid advancement of technology and power.
+					</p>
+				</div>
+			</div>
+			
 		</div>
 	</div>
 </section>
@@ -251,264 +257,96 @@
 				<div class="posts-list row">
 					<div class="col-sm-4">
 						<div class="single-post">
-							<a class="posts-title" href="blog-single.html">
+							<a class="posts-title" href="single">
 								<div class="feature-img">
-									<img class="img-fluid" src="/appru/img/alam-1.jpg" alt="">
+									<img class="img-fluid" src="/appru/img/artikel-1.jpg" alt="">
 								</div>
-									<h3>Fenomena Alam Semasa Covid, dari Dentum Misterius ke Asteroid</h3>
+									<h3>Training Workshop Hidrologi untuk Pengelola Lahan Basah Suaka Margasatwa Rawa Singkil BKSDA Aceh di TN Baluran</h3>
 								</a>
 								<p class="tanggal">Tanggal</p> <p class="dmy">22 Oktober 2020</p>
 								<p class="excert">
-								Semasa pandemi Covid-19 masyarakat di penjuru bumi mengalami berbagai fenomena alam. Sebagian sudah diprediksi dan bisa dijelaskan secara ilmiah, namun ada di antaranya yang misterius sampai saat ini.
+									Pemerintah Amerika Serikat melaui The Department of the Interior’s International Technical Assistance Program (DOI-ITAP) telah membangun kerjasama dengan...
 								</p>
 								
 						</div>
 					</div>
 					<div class="col-sm-4">
 						<div class="single-post">
-							<a class="posts-title" href="blog-single.html">
+							<a class="posts-title" href="single">
 								<div class="feature-img">
-									<img class="img-fluid" src="/appru/img/alam-2.jpg" alt="">
+									<img class="img-fluid" src="/appru/img/artikel-3.jpg" alt="">
 								</div>
-									<h3>Perubahan Bumi dan Bencana Alam Akibat Matahari Lockdown</h3>
+									<h3>Pemeliharaan Jalur Wisata Pengamatan Satwa dan Tumbuhan di Sungai Koran</h3>
 								</a>
 								<p class="tanggal">Tanggal</p> <p class="dmy">22 Oktober 2020</p>
 								<p class="excert">
-								Matahari yang sedang dalam fase lockdown pada saat ini diprediksi bisa memicu fenomena alam di bumi. 
+								Destinasi wisata Sungai Koran yang berada di Resort Baluran Hulu SPTN Wilayah I Palangka Raya Taman Nasional Baluran memiliki beberapa atraksi wisata antara lain..
 								</p>
 								
 						</div>
 					</div>
 					<div class="col-sm-4">
 						<div class="single-post">
-							<a class="posts-title" href="blog-single.html">
+							<a class="posts-title" href="single">
 								<div class="feature-img">
-									<img class="img-fluid" src="/appru/img/alam-3.jpg" alt="">
+									<img class="img-fluid" src="/appru/img/artikel-4.jpg" alt="">
 								</div>
-									<h3>6 Fenomena Alam Menjelang dan Saat Ramadan 2020</h3>
+									<h3>Aksi Sapta Pesona di Dermaga Kereng Bangkirai oleh Dinas Kebudayaan dan Pariwisata Provinsi Kalteng</h3>
 								</a>
 								<p class="tanggal">Tanggal</p> <p class="dmy">22 Oktober 2020</p>
 								<p class="excert">
-								Fenomena alam tahun ini bisa dibilang cukup beragam menjelang dan saat bulan Ramadan bagi umat Muslim di seluruh dunia.
+								Pada tanggal 26 Juli 2018, di dermaga Kereng Bangkirai yang merupakan pintu utama memasuki kawasan TN Baluran telah dilaksanakan Aksi Sapta Pesona...
 								</p>
 								
 						</div>
 					</div>
 					<div class="col-sm-4">
 						<div class="single-post">
-							<a class="posts-title" href="blog-single.html">
+							<a class="posts-title" href="single">
 								<div class="feature-img">
-									<img class="img-fluid" src="/appru/img/alam-4.jpg" alt="">
+									<img class="img-fluid" src="/appru/img/artikel-5.jpg" alt="">
 								</div>
-									<h3>Ratusan Rumah di Serdang Bedagai Rusak Diterjang Angin Puting Beliung</h3>
+									<h3>Kunjungan Tim Sosialisasi Proyek ke Taman Nasional Baluran</h3>
 								</a>
 								<p class="tanggal">Tanggal</p> <p class="dmy">22 Oktober 2020</p>
 								<p class="excert">
-								Tiga wilayah kecamatan di Kabupaten Serdang Bedagai (Sergai), Sumatera Utara, diterjang angin puting beliung.
+								Pada tanggal 30 Juli 2018, Balai TN Baluran berkesempatan menerima kunjungan dari Tim Sosialisasi Proyek. “Improving Community Fire Management and Peatland Restoration in Indonesia”...
 								</p>
 								
 						</div>
 					</div>
 					<div class="col-sm-4">
 						<div class="single-post">
-							<a class="posts-title" href="blog-single.html">
+							<a class="posts-title" href="single">
 								<div class="feature-img">
-									<img class="img-fluid" src="/appru/img/alam-5.jpg" alt="">
+									<img class="img-fluid" src="/appru/img/artikel-6.jpg" alt="">
 								</div>
-									<h3>Matahari yang sedang dalam fase lockdown pada saat ini diprediksi bisa memicu fenomena alam di bumi. </h3>
+									<h3>Pemberdayaan Masyarakat, Upaya Pengelolaan TN Baluran Secara Kolaboratif</h3>
 								</a>
 								<p class="tanggal">Tanggal</p> <p class="dmy">22 Oktober 2020</p>
 								<p class="excert">
-								Matahari yang sedang dalam fase lockdown pada saat ini diprediksi bisa memicu fenomena alam di bumi.
+								Sebagai upaya bersinergi dengan usaha pengembangan ekonomi masyarakat di sekitar Kawasan Konservasi, Pihak Balai Taman Nasional Baluran pada tanggal 21 Maret 2018 mengadakan kegiatan...
 								</p>
 								
 						</div>
 					</div>
+					
 					<div class="col-sm-4">
 						<div class="single-post">
-							<a class="posts-title" href="blog-single.html">
+							<a class="posts-title" href="single">
 								<div class="feature-img">
-									<img class="img-fluid" src="/appru/img/alam-6.jpg" alt="">
+									<img class="img-fluid" src="/appru/img/artikel-2.jpg" alt="">
 								</div>
-									<h3>Penyebab Tanah Longsor dan Cara Menghadapinya</h3>
+									<h3>Pemeliharaan Jalur Pariwisata di Sungai KORAN bersama Masyarakat</h3>
 								</a>
 								<p class="tanggal">Tanggal</p> <p class="dmy">22 Oktober 2020</p>
 								<p class="excert">
-								Longsor biasanya terjadi begitu cepat sehingga evakuasi sulit dilakukan.
+								Sungai Baluran bagian hulu dan Sungai Koran merupakan jalur transportasi wisata alam yang masuk ke wilayah kerja Resort Baluran Hulu, SPTN Wilayah I..
 								</p>
 								
 						</div>
 					</div>
 				</div>
-				<!-- Charlie -->
-				<!-- <div class="col-lg-4 sidebar-widgets">
-					<div class="widget-wrap">
-						<div class="single-sidebar-widget search-widget">
-							<form class="search-form" action="#">
-								<input placeholder="Search Posts" name="search" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search Posts'">
-								<button type="submit"><i class="fa fa-search"></i></button>
-							</form>
-						</div>
-						<div class="single-sidebar-widget user-info-widget">
-							<img src="/appru/img/blog/user-info.png" alt="">
-							<a href="#">
-								<h4>Charlie Barber</h4>
-							</a>
-							<p>
-								Senior blog writer
-							</p>
-							<ul class="social-links">
-								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fa fa-github"></i></a></li>
-								<li><a href="#"><i class="fa fa-behance"></i></a></li>
-							</ul>
-							<p>
-								Boot camps have its supporters andit sdetractors. Some people do not understand why you should have to spend
-								money on boot
-								camp when you can get. Boot camps have itssuppor ters andits detractors.
-							</p>
-						</div>
-						<div class="single-sidebar-widget popular-post-widget">
-							<h4 class="popular-title">Popular Posts</h4>
-							<div class="popular-post-list">
-								<div class="single-post-list d-flex flex-row align-items-center">
-									<div class="thumb">
-										<img class="img-fluid" src="/appru/img/blog/pp1.jpg" alt="">
-									</div>
-									<div class="details">
-										<a href="blog-single.html">
-											<h6>Space The Final Frontier</h6>
-										</a>
-										<p>02 Hours ago</p>
-									</div>
-								</div>
-								<div class="single-post-list d-flex flex-row align-items-center">
-									<div class="thumb">
-										<img class="img-fluid" src="/appru/img/blog/pp2.jpg" alt="">
-									</div>
-									<div class="details">
-										<a href="blog-single.html">
-											<h6>The Amazing Hubble</h6>
-										</a>
-										<p>02 Hours ago</p>
-									</div>
-								</div>
-								<div class="single-post-list d-flex flex-row align-items-center">
-									<div class="thumb">
-										<img class="img-fluid" src="/appru/img/blog/pp3.jpg" alt="">
-									</div>
-									<div class="details">
-										<a href="blog-single.html">
-											<h6>Astronomy Or Astrology</h6>
-										</a>
-										<p>02 Hours ago</p>
-									</div>
-								</div>
-								<div class="single-post-list d-flex flex-row align-items-center">
-									<div class="thumb">
-										<img class="img-fluid" src="/appru/img/blog/pp4.jpg" alt="">
-									</div>
-									<div class="details">
-										<a href="blog-single.html">
-											<h6>Asteroids telescope</h6>
-										</a>
-										<p>02 Hours ago</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="single-sidebar-widget ads-widget">
-							<a href="#"><img class="img-fluid" src="/appru/img/blog/ads-banner.jpg" alt=""></a>
-						</div>
-						<div class="single-sidebar-widget post-category-widget">
-							<h4 class="category-title">Post Catgories</h4>
-							<ul class="cat-list">
-								<li>
-									<a href="#" class="d-flex justify-content-between">
-										<p>Technology</p>
-										<p>37</p>
-									</a>
-								</li>
-								<li>
-									<a href="#" class="d-flex justify-content-between">
-										<p>Lifestyle</p>
-										<p>24</p>
-									</a>
-								</li>
-								<li>
-									<a href="#" class="d-flex justify-content-between">
-										<p>Fashion</p>
-										<p>59</p>
-									</a>
-								</li>
-								<li>
-									<a href="#" class="d-flex justify-content-between">
-										<p>Art</p>
-										<p>29</p>
-									</a>
-								</li>
-								<li>
-									<a href="#" class="d-flex justify-content-between">
-										<p>Food</p>
-										<p>15</p>
-									</a>
-								</li>
-								<li>
-									<a href="#" class="d-flex justify-content-between">
-										<p>Architecture</p>
-										<p>09</p>
-									</a>
-								</li>
-								<li>
-									<a href="#" class="d-flex justify-content-between">
-										<p>Adventure</p>
-										<p>44</p>
-									</a>
-								</li>
-							</ul>
-						</div>
-						<div class="single-sidebar-widget newsletter-widget">
-							<h4 class="newsletter-title">Newsletter</h4>
-							<p>
-								Here, I focus on a range of items and features that we use in life without giving them a second thought.
-							</p>
-							<div class="form-group d-flex flex-row">
-								<div class="col-autos">
-									<div class="input-group">
-										<div class="input-group-prepend">
-											<div class="input-group-text"><i class="fa fa-envelope" aria-hidden="true"></i>
-											</div>
-										</div>
-										<input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Enter email" onfocus="this.placeholder = ''"
-										 onblur="this.placeholder = 'Enter email'">
-									</div>
-								</div>
-								<a href="#" class="bbtns">Subcribe</a>
-							</div>
-							<p class="text-bottom">
-								You can unsubscribe at any time
-							</p>
-						</div>
-						<div class="single-sidebar-widget tag-cloud-widget">
-							<h4 class="tagcloud-title">Tag Clouds</h4>
-							<ul>
-								<li><a href="#">Technology</a></li>
-								<li><a href="#">Fashion</a></li>
-								<li><a href="#">Architecture</a></li>
-								<li><a href="#">Fashion</a></li>
-								<li><a href="#">Food</a></li>
-								<li><a href="#">Technology</a></li>
-								<li><a href="#">Lifestyle</a></li>
-								<li><a href="#">Art</a></li>
-								<li><a href="#">Adventure</a></li>
-								<li><a href="#">Food</a></li>
-								<li><a href="#">Lifestyle</a></li>
-								<li><a href="#">Adventure</a></li>
-							</ul>
-						</div>
-					</div>
-				</div> -->
 			</div>
 		</div>
 </section>
@@ -520,281 +358,41 @@
 	<div class="container">
 		<div class="row">
 			<div class="section-post">
-				<div class="round"></div><a href="terkini"><h1 class="title-post"> Youtube </h1></a> <hr class="line">
+				<div class="round"></div><h1 class="title-post"> Youtube </h1><hr class="line">
 			</div>
 				<div class="posts-list row">
-					<div class="col-sm-4">
+					<div class="col-sm-6">
 						<div class="single-post">
-							<iframe class="latestVideoEmbed" vnum='0' cid="UCBJycsmduvYEL83R_U4JriQ" width="300" height="340" frameborder="0" allowfullscreen></iframe>
+							<iframe class="latestVideoEmbed" vnum='0' cid="UCnZ_B_Pi___coxOm6SLhnmg" width="500" height="340" frameborder="0" allowfullscreen></iframe>
 						</div>
 					</div>
-					<div class="col-sm-4">
+					<div class="col-sm-6">
 						<div class="single-post">
-							<iframe class="latestVideoEmbed" vnum='1' cid="UCBJycsmduvYEL83R_U4JriQ" width="300" height="340" frameborder="0" allowfullscreen></iframe>
+							<iframe class="latestVideoEmbed" vnum='1' cid="UCnZ_B_Pi___coxOm6SLhnmg" width="500" height="340" frameborder="0" allowfullscreen></iframe>
 						</div>
 					</div>
-					<div class="col-sm-4">
+					<div class="col-sm-6">
 						<div class="single-post">
-							<iframe class="latestVideoEmbed" vnum='2' cid="UCBJycsmduvYEL83R_U4JriQ" width="300" height="340" frameborder="0" allowfullscreen></iframe>
+							<iframe class="latestVideoEmbed" vnum='2' cid="UCnZ_B_Pi___coxOm6SLhnmg" width="500" height="340" frameborder="0" allowfullscreen></iframe>
 						</div>
 						</div>
-					<div class="col-sm-4">
+					<div class="col-sm-6">
 						<div class="single-post">
-							<iframe class="latestVideoEmbed" vnum='3' cid="UCBJycsmduvYEL83R_U4JriQ" width="300" height="340" frameborder="0" allowfullscreen></iframe>
-						</div>
-					</div>
-					<div class="col-sm-4">
-						<div class="single-post">
-							<iframe class="latestVideoEmbed" vnum='4' cid="UCBJycsmduvYEL83R_U4JriQ" width="300" height="340" frameborder="0" allowfullscreen></iframe>
+							<iframe class="latestVideoEmbed" vnum='3' cid="UCnZ_B_Pi___coxOm6SLhnmg" width="500" height="340" frameborder="0" allowfullscreen></iframe>
 						</div>
 					</div>
-					<div class="col-sm-4">
+					<div class="col-sm-6">
 						<div class="single-post">
-							<iframe class="latestVideoEmbed" vnum='5' cid="UCBJycsmduvYEL83R_U4JriQ" width="300" height="340" frameborder="0" allowfullscreen></iframe>
+							<iframe class="latestVideoEmbed" vnum='4' cid="UCnZ_B_Pi___coxOm6SLhnmg" width="500" height="340" frameborder="0" allowfullscreen></iframe>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="single-post">
+							<iframe class="latestVideoEmbed" vnum='5' cid="UCnZ_B_Pi___coxOm6SLhnmg" width="500" height="340" frameborder="0" allowfullscreen></iframe>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 </section>
-
-<!-- End about-video Area -->
-
-<!-- Start Testimonials Area -->
-<!-- <section class="testimonials-area section-gap-top">
-	<div class="container">
-		<div class="testi-slider owl-carousel" data-slider-id="1">
-			<div class="item">
-				<div class="testi-item">
-					<img src="/appru/img/quote.png" alt="">
-					<h4>Fanny Spencer</h4>
-					<ul class="list">
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-					</ul>
-					<div class="wow fadeIn" data-wow-duration="1s">
-						<p>
-							As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it,
-							you travel
-							across her face <br> and She is the host to your journey.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="item">
-				<div class="testi-item">
-					<img src="/appru/img/quote.png" alt="">
-					<h4>Fanny Spencer</h4>
-					<ul class="list">
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-					</ul>
-					<div class="wow fadeIn" data-wow-duration="1s">
-						<p>
-							As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it,
-							you travel
-							across her face <br> and She is the host to your journey.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="item">
-				<div class="testi-item">
-					<img src="/appru/img/quote.png" alt="">
-					<h4>Fanny Spencer</h4>
-					<ul class="list">
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-					</ul>
-					<div class="wow fadeIn" data-wow-duration="1s">
-						<p>
-							As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it,
-							you travel
-							across her face <br> and She is the host to your journey.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="item">
-				<div class="testi-item">
-					<img src="/appru/img/quote.png" alt="">
-					<h4>Fanny Spencer</h4>
-					<ul class="list">
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-					</ul>
-					<div class="wow fadeIn" data-wow-duration="1s">
-						<p>
-							As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it,
-							you travel
-							across her face <br> and She is the host to your journey.
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="owl-thumbs d-flex justify-content-center" data-slider-id="1">
-			<div class="owl-thumb-item">
-				<div>
-					<img class="img-fluid" src="img/testimonial/t1.jpg" alt="">
-				</div>
-				<div class="overlay overlay-grad"></div>
-			</div>
-			<div class="owl-thumb-item">
-				<div>
-					<img class="img-fluid" src="img/testimonial/t2.jpg" alt="">
-				</div>
-				<div class="overlay overlay-grad"></div>
-			</div>
-			<div class="owl-thumb-item">
-				<div>
-					<img class="img-fluid" src="img/testimonial/t3.jpg" alt="">
-				</div>
-				<div class="overlay overlay-grad"></div>
-			</div>
-			<div class="owl-thumb-item">
-				<div>
-					<img class="img-fluid" src="img/testimonial/t4.jpg" alt="">
-				</div>
-				<div class="overlay overlay-grad"></div>
-			</div>
-		</div>
-	</div>
-</section> -->
-<!-- End Testimonials Area -->
-
-<!-- Start Screenshot Area -->
-<!-- <section class="screenshot-area section-gap-top">
-	<div class="container">
-		<div class="row d-flex justify-content-center">
-			<div class="col-lg-6">
-				<div class="section-title text-center">
-					<h2>Featured Screens</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-						magna aliqua.
-					</p>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="owl-carousel owl-screenshot">
-				<div class="single-screenshot">
-					<img class="img-fluid" src="img/screenshots/s1.jpg" alt="">
-				</div>
-				<div class="single-screenshot">
-					<img class="img-fluid" src="img/screenshots/s2.jpg" alt="">
-				</div>
-				<div class="single-screenshot">
-					<img class="img-fluid" src="img/screenshots/s3.jpg" alt="">
-				</div>
-				<div class="single-screenshot">
-					<img class="img-fluid" src="img/screenshots/s4.jpg" alt="">
-				</div>
-			</div>
-		</div>
-	</div>
-</section> -->
-<!-- End Screenshot Area -->
-
-<!-- Start Pricing Area -->
-<!-- <section class="pricing-area">
-	<div class="container">
-		<div class="row d-flex justify-content-center">
-			<div class="col-lg-6">
-				<div class="section-title text-center">
-					<h2>Suitable Pricing Plans</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-						magna aliqua.
-					</p>
-				</div>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-lg-4 col-md-6">
-				<div class="single-price">
-					<div class="top-sec d-flex justify-content-between">
-						<div class="top-left">
-							<h4>Standard</h4>
-							<p>For the <br>individuals</p>
-						</div>
-						<div class="top-right">
-							<h1>£199</h1>
-						</div>
-					</div>
-					<div class="end-sec">
-						<ul>
-							<li>2.5 GB Free Photos</li>
-							<li>Secure Online Transfer Indeed</li>
-							<li>Unlimited Styles for interface</li>
-							<li>Reliable Customer Service</li>
-							<li>Manual Backup Provided</li>
-						</ul>
-						<button class="primary-btn price-btn mt-20">Purchase Plan</button>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-6">
-				<div class="single-price">
-					<div class="top-sec d-flex justify-content-between">
-						<div class="top-left">
-							<h4>Business</h4>
-							<p>For <br>small Company</p>
-						</div>
-						<div class="top-right">
-							<h1>£399</h1>
-						</div>
-					</div>
-					<div class="end-sec">
-						<ul>
-							<li>2.5 GB Free Photos</li>
-							<li>Secure Online Transfer Indeed</li>
-							<li>Unlimited Styles for interface</li>
-							<li>Reliable Customer Service</li>
-							<li>Manual Backup Provided</li>
-						</ul>
-						<button class="primary-btn price-btn mt-20">Purchase Plan</button>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-6">
-				<div class="single-price">
-					<div class="top-sec d-flex justify-content-between">
-						<div class="top-left">
-							<h4>Ultimate</h4>
-							<p>For <br>large Company</p>
-						</div>
-						<div class="top-right">
-							<h1>£499</h1>
-						</div>
-					</div>
-					<div class="end-sec">
-						<ul>
-							<li>2.5 GB Free Photos</li>
-							<li>Secure Online Transfer Indeed</li>
-							<li>Unlimited Styles for interface</li>
-							<li>Reliable Customer Service</li>
-							<li>Manual Backup Provided</li>
-						</ul>
-						<button class="primary-btn price-btn mt-20">Purchase Plan</button>
-					</div>
-				</div>
-			</div>
-
-		</div>
-	</div>
-</section> -->
-<!-- End Pricing Area -->
 @endsection

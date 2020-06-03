@@ -84,8 +84,8 @@ a, a:focus, a:hover {
   outline: 0; }
 
 .logo-web{
-  width: 60px;
-  height: 60px;
+  width: 120px;
+  height: 40px;
 }
 
 .card-panel {
@@ -1061,7 +1061,7 @@ h1, h2, h3, h4, h5, h6 {
   .progress-table .country {
     width: 28.07%; }
   .progress-table .visit {
-    width: 19.74%; }
+    width: 100%; }
   .progress-table .percentage {
     width: 40.36%;
     padding-right: 50px; }

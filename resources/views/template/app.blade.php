@@ -5,7 +5,7 @@
 	<!-- Mobile Specific Meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<!-- Favicon-->
-	<link rel="shortcut icon" href="img/fav.png">
+	<link rel="shortcut icon" href="{{asset('appru')}}/img/taman-nasional-situbundo-jatim.png">
 	<!-- Author Meta -->
 	<meta name="author" content="codepixer">
 	<!-- Meta Description -->
@@ -15,9 +15,8 @@
 	<!-- meta character set -->
 	<meta charset="UTF-8">
 	<!-- Site Title -->
-	<title>Appru</title>
+	<title>Taman Nasional Baluran Situbando Jawa Timur</title>
 	<link href="https://fonts.googleapis.com/css?family=Poppins:400,600|Roboto:400,400i,500" rel="stylesheet">
-	<!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet"> -->
 	<!--
 			CSS
 			============================================= -->
@@ -28,7 +27,16 @@
 	<link rel="stylesheet" href="{{asset('appru')}}/css/nice-select.css">
 	<link rel="stylesheet" href="{{asset('appru')}}/css/hexagons.min.css">
 	<link rel="stylesheet" href="{{asset('appru')}}/css/owl.carousel.css">
-    <link rel="stylesheet" href="{{asset('appru')}}/css/main.css">
+	<link rel="stylesheet" href="{{asset('appru')}}/css/main.css">
+	<!-- DataTables -->
+	<link rel="stylesheet" href="/adminlte/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
+	<link rel="stylesheet" href="/adminlte/plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
+	<!-- Ekko Lightbox -->
+	<link rel="stylesheet" href="/adminlte/plugins/ekko-lightbox/ekko-lightbox.css">
+	<!-- SweetAlert2 -->
+	<link rel="stylesheet" href="/adminlte/plugins/sweetalert2/sweetalert2.min.css">
+  <!-- Toastr -->
+  <link rel="stylesheet" href="/adminlte/plugins/toastr/toastr.min.css">
     @stack('css')
 </head>
 
@@ -40,7 +48,7 @@
 		<div class="container main-menu">
 			<div class="row align-items-center justify-content-between d-flex">
 				<div id="logo">
-					<a href="/"><img src="/appru/img/taman-nasional-situbundo-jatim.png" alt="" title="" class="logo-web"/></a>
+					<a href="/"><img src="/appru/img/logo-taman-nasional-baluran.png" alt="" title="" class="logo-web"/></a>
 				</div>
 				<nav id="nav-menu-container">
 					<ul class="nav-menu">
@@ -53,19 +61,8 @@
 								<li><a href="kelembagaan">Kelembagaan</a></li>
 							</ul>
 						</li>
-						<li class="menu-has-children"><a href="">Reformasi Birokrasi</a>
-							<ul>
-								<li><a href="#">#Example</a></li>
-							</ul>
-						</li>
-						<li class="menu-has-children"><a href="">Pengelolaan</a>
-							<ul>
-								<li><a href="#">Pemanfaatan</a></li>
-								<li><a href="#">Pengawetan</a></li>
-								<li><a href="#">Perlindungan</a></li>
-							</ul>
-						</li>
-						<li><a href="contact.html">Kontak Kami</a></li>
+						<li><a href="pemanfaatan">Pemanfaatan</a></li>
+						<li><a href="kontak">Kontak Kami</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -96,7 +93,7 @@
 					</ul>
 				</div>
 				<div class="col-lg-2 col-md-6 single-footer-widget">
-					<h4>Partner</h4>
+					<h4>Mitra</h4>
 					<ul>
 						<li><a href="#">Kementerian LHK</a></li>
 						<li><a href="#">Ditjen KSDAE</a></li>
@@ -135,6 +132,13 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	<script src="/appru/js/waypoints.min.js"></script>
 	<script src="/appru/js/mail-script.js"></script>
 	<script src="/appru/js/main.js"></script>
+	<!-- DataTables -->
+	<script src="/adminlte/plugins/datatables/jquery.dataTables.min.js"></script>
+	<script src="/adminlte/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
+	<script src="/adminlte/plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
+	<script src="/adminlte/plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
+	<!-- Ekko Lightbox -->
+	<script src="/adminlte/plugins/ekko-lightbox/ekko-lightbox.min.js"></script>
     @stack('script')
 </body>
 

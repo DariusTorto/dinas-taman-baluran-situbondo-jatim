@@ -40,7 +40,7 @@
 							</div>
                         </div>
                         <div class="row mt-30 mb-30">
-							<h3 class="mt-20 mb-20">Taman Nasional Meru Betiri</h3>
+							<h3 class="mt-20 mb-20">Taman Nasional Baluran Situbondo</h3>
 							<p class="excert">
                             Taman Nasional Meru Betiri merupakan kawasan pelestarian alam yang mempunyai ekosistem asli dikelola dengan sistem zonasi yang dimanfaatkan untuk tujuan penelitian, ilmu pengetahuan, pendidikan, menunjang budidaya, pariwisata dan rekreasi
 
@@ -60,7 +60,7 @@
 						</div>
 						<div class="col-lg-12">
 							<div class="row mt-30 mb-30">
-								<div class="col-lg-12 mt-30">
+								<div class="col-lg-12 mt-10">
 									<p><b>Letak Geografis :  113037’23” - 113058’11” BT & 8020’31” - 8035’09” LS</b></p>
 									</p>
 									<div class="unordered-list">
@@ -79,45 +79,13 @@
 							</div>
 						</div>
 					</div>
-					<div class="navigation-area">
-						<div class="row">
-							<div class="col-lg-6 col-md-6 col-12 nav-left flex-row d-flex justify-content-start align-items-center">
-								<div class="thumb">
-									<a href="#"><img class="img-fluid" src="appru/img/blog/prev.jpg" alt=""></a>
-								</div>
-								<div class="arrow">
-									<a href="#"><span class="lnr text-white lnr-arrow-left"></span></a>
-								</div>
-								<div class="detials">
-									<p>Prev Post</p>
-									<a href="#">
-										<h4>Space The Final Frontier</h4>
-									</a>
-								</div>
-							</div>
-							<div class="col-lg-6 col-md-6 col-12 nav-right flex-row d-flex justify-content-end align-items-center">
-								<div class="detials">
-									<p>Next Post</p>
-									<a href="#">
-										<h4>Telescopes 101</h4>
-									</a>
-								</div>
-								<div class="arrow">
-									<a href="#"><span class="lnr text-white lnr-arrow-right"></span></a>
-								</div>
-								<div class="thumb">
-									<a href="#"><img class="img-fluid" src="appru/img/blog/next.jpg" alt=""></a>
-								</div>
-							</div>
-						</div>
-					</div>
 				</div>
 				<div class="col-lg-4 sidebar-widgets">
 					<div class="widget-wrap">
-						<div class="single-sidebar-widget user-info-widget">
-							<img class="gambar"src="/appru/img/blog/user-info.jpg" alt="">
+					<div class="single-sidebar-widget user-info-widget">
+							<img class="gambar"src="{{asset('appru')}}/img/taman-nasional-situbundo-jatim.png" alt="">
 							<a href="#">
-								<h4>Taman Nasional</h4>
+								<h4>Taman Nasional Baluran Situbondo Jawa Timur</h4>
 							</a>
 							<p>
 								Tempat Wisata
@@ -126,62 +94,11 @@
 								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
 								<li><a href="#"><i class="fa fa-github"></i></a></li>
-								<li><a href="#"><i class="fa fa-behance"></i></a></li>
+								<li><a href="#"><i class="fa fa-youtube"></i></a></li>
 							</ul>
 							<p>
-								Boot camps have its supporters andit sdetractors. Some people do not understand why you should have to spend
-								money on boot
-								camp when you can get. Boot camps have itssuppor ters andits detractors.
+							Taman nasional adalah suatu kawasan pelestarian alam yang telah ditetapkan oleh pemerintah dan tentunya memiliki ekosistem asli. Dikelola dengan sistem zonasi yang dimanfaatkan untuk tujuan penelitian, ilmu pengetahuan, pendidikan, menunjang budidaya, pariwisata, dan rekreasi.
 							</p>
-						</div>
-						<div class="single-sidebar-widget popular-post-widget">
-							<h4 class="popular-title">Pengumuman</h4>
-							<div class="popular-post-list">
-								<div class="single-post-list d-flex flex-row align-items-center">
-									<div class="thumb">
-										<img class="img-fluid" src="/appru/img/blog/pp1.jpg" alt="">
-									</div>
-									<div class="details">
-										<a href="blog-single.html">
-											<h6>Space The Final Frontier</h6>
-										</a>
-										<p>02 Hours ago</p>
-									</div>
-								</div>
-								<div class="single-post-list d-flex flex-row align-items-center">
-									<div class="thumb">
-										<img class="img-fluid" src="/appru/img/blog/pp2.jpg" alt="">
-									</div>
-									<div class="details">
-										<a href="blog-single.html">
-											<h6>The Amazing Hubble</h6>
-										</a>
-										<p>02 Hours ago</p>
-									</div>
-								</div>
-								<div class="single-post-list d-flex flex-row align-items-center">
-									<div class="thumb">
-										<img class="img-fluid" src="/appru/img/blog/pp3.jpg" alt="">
-									</div>
-									<div class="details">
-										<a href="blog-single.html">
-											<h6>Astronomy Or Astrology</h6>
-										</a>
-										<p>02 Hours ago</p>
-									</div>
-								</div>
-								<div class="single-post-list d-flex flex-row align-items-center">
-									<div class="thumb">
-										<img class="img-fluid" src="/appru/img/blog/pp4.jpg" alt="">
-									</div>
-									<div class="details">
-										<a href="blog-single.html">
-											<h6>Asteroids telescope</h6>
-										</a>
-										<p>02 Hours ago</p>
-									</div>
-								</div>
-							</div>
 						</div>
 					</div>
 				</div>

@@ -79,17 +79,15 @@
 						</div>
 						<div class="col-lg-9 col-md-9 ">
 							<div class="feature-img">
-								<img class="img-fluid" src="/appru/img/blog/feature-img1.jpg" alt="">
+								<img class="img-fluid" src="/appru/img/artikel-1.jpg" alt="">
 							</div>
-							<a class="posts-title" href="blog-single.html">
-								<h3>Astronomy Binoculars A Great Alternative</h3>
+							<a class="posts-title" href="single">
+								<h3>Training Workshop Hidrologi untuk Pengelola Lahan Basah Suaka Margasatwa Rawa Singkil BKSDA Aceh di TN Baluran</h3>
 							</a>
 							<p class="excert">
-								MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to
-								spend money
-								on boot camp when you can get the MCSE study materials yourself at a fraction.
+							Pemerintah Amerika Serikat melaui The Department of the Interior’s International Technical Assistance Program (DOI-ITAP) telah membangun kerjasama dengan...
 							</p>
-							<a href="blog-single.html" class="white_bg_btn">View More</a>
+							<a href="single" class="white_bg_btn">View More</a>
 						</div>
 					</div>
 					<div class="single-post row">
@@ -102,17 +100,15 @@
 						</div>
 						<div class="col-lg-9 col-md-9 ">
 							<div class="feature-img">
-								<img class="img-fluid" src="/appru/img/blog/feature-img2.jpg" alt="">
+								<img class="img-fluid" src="/appru/img/artikel-6.jpg" alt="">
 							</div>
-							<a class="posts-title" href="blog-single.html">
-								<h3>The Basics Of Buying A Telescope</h3>
+							<a class="posts-title" href="single">
+								<h3>Pemeliharaan Jalur Wisata Pengamatan Satwa dan Tumbuhan di Sungai Koran</h3>
 							</a>
 							<p class="excert">
-								MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to
-								spend money
-								on boot camp when you can get the MCSE study materials yourself at a fraction.
+							Destinasi wisata Sungai Koran yang berada di Resort Baluran Hulu SPTN Wilayah I Palangka Raya Taman Nasional Baluran memiliki beberapa atraksi wisata antara lain..
 							</p>
-							<a href="blog-single.html" class="white_bg_btn">View More</a>
+							<a href="single" class="white_bg_btn">View More</a>
 						</div>
 					</div>
 					<div class="single-post row">
@@ -125,17 +121,15 @@
 						</div>
 						<div class="col-lg-9 col-md-9">
 							<div class="feature-img">
-								<img class="img-fluid" src="/appru/img/blog/feature-img3.jpg" alt="">
+								<img class="img-fluid" src="/appru/img/artikel-3.jpg" alt="">
 							</div>
-							<a class="posts-title" href="blog-single.html">
-								<h3>The Glossary Of Telescopes</h3>
+							<a class="posts-title" href="single">
+								<h3>Aksi Sapta Pesona di Dermaga Kereng Bangkirai oleh Dinas Kebudayaan dan Pariwisata Provinsi Kalteng</h3>
 							</a>
 							<p class="excert">
-								MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to
-								spend money
-								on boot camp when you can get the MCSE study materials yourself at a fraction.
+							Pada tanggal 26 Juli 2018, di dermaga Kereng Bangkirai yang merupakan pintu utama memasuki kawasan TN Baluran telah dilaksanakan Aksi Sapta Pesona...
 							</p>
-							<a href="blog-single.html" class="white_bg_btn">View More</a>
+							<a href="single" class="white_bg_btn">View More</a>
 						</div>
 					</div>
 					<div class="single-post row">
@@ -148,17 +142,15 @@
 						</div>
 						<div class="col-lg-9 col-md-9">
 							<div class="feature-img">
-								<img class="img-fluid" src="/appru/img/blog/feature-img4.jpg" alt="">
+								<img class="img-fluid" src="/appru/img/artikel-4.jpg" alt="">
 							</div>
-							<a class="posts-title" href="blog-single.html">
-								<h3>The Night Sky</h3>
+							<a class="posts-title" href="single">
+								<h3>Kunjungan Tim Sosialisasi Proyek ke Taman Nasional Baluran</h3>
 							</a>
 							<p class="excert">
-								MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to
-								spend money
-								on boot camp when you can get the MCSE study materials yourself at a fraction.
+							Pada tanggal 30 Juli 2018, Balai TN Baluran berkesempatan menerima kunjungan dari Tim Sosialisasi Proyek. “Improving Community Fire Management and Peatland Restoration in Indonesia”...
 							</p>
-							<a href="blog-single.html" class="white_bg_btn">View More</a>
+							<a href="single" class="white_bg_btn">View More</a>
 						</div>
 					</div>
 					<nav class="blog-pagination justify-content-center d-flex">
@@ -194,9 +186,9 @@
 							</form>
 						</div>
 						<div class="single-sidebar-widget user-info-widget">
-							<img class="gambar"src="/appru/img/blog/user-info.jpg" alt="">
+							<img class="gambar"src="{{asset('appru')}}/img/taman-nasional-situbundo-jatim.png" alt="">
 							<a href="#">
-								<h4>Taman Nasional</h4>
+								<h4>Taman Nasional Baluran Situbondo Jawa Timur</h4>
 							</a>
 							<p>
 								Tempat Wisata
@@ -205,62 +197,11 @@
 								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
 								<li><a href="#"><i class="fa fa-github"></i></a></li>
-								<li><a href="#"><i class="fa fa-behance"></i></a></li>
+								<li><a href="#"><i class="fa fa-youtube"></i></a></li>
 							</ul>
 							<p>
-								Boot camps have its supporters andit sdetractors. Some people do not understand why you should have to spend
-								money on boot
-								camp when you can get. Boot camps have itssuppor ters andits detractors.
+							Taman nasional adalah suatu kawasan pelestarian alam yang telah ditetapkan oleh pemerintah dan tentunya memiliki ekosistem asli. Dikelola dengan sistem zonasi yang dimanfaatkan untuk tujuan penelitian, ilmu pengetahuan, pendidikan, menunjang budidaya, pariwisata, dan rekreasi.
 							</p>
-						</div>
-						<div class="single-sidebar-widget popular-post-widget">
-							<h4 class="popular-title">Pengumuman</h4>
-							<div class="popular-post-list">
-								<div class="single-post-list d-flex flex-row align-items-center">
-									<div class="thumb">
-										<img class="img-fluid" src="/appru/img/blog/pp1.jpg" alt="">
-									</div>
-									<div class="details">
-										<a href="blog-single.html">
-											<h6>Space The Final Frontier</h6>
-										</a>
-										<p>02 Hours ago</p>
-									</div>
-								</div>
-								<div class="single-post-list d-flex flex-row align-items-center">
-									<div class="thumb">
-										<img class="img-fluid" src="/appru/img/blog/pp2.jpg" alt="">
-									</div>
-									<div class="details">
-										<a href="blog-single.html">
-											<h6>The Amazing Hubble</h6>
-										</a>
-										<p>02 Hours ago</p>
-									</div>
-								</div>
-								<div class="single-post-list d-flex flex-row align-items-center">
-									<div class="thumb">
-										<img class="img-fluid" src="/appru/img/blog/pp3.jpg" alt="">
-									</div>
-									<div class="details">
-										<a href="blog-single.html">
-											<h6>Astronomy Or Astrology</h6>
-										</a>
-										<p>02 Hours ago</p>
-									</div>
-								</div>
-								<div class="single-post-list d-flex flex-row align-items-center">
-									<div class="thumb">
-										<img class="img-fluid" src="/appru/img/blog/pp4.jpg" alt="">
-									</div>
-									<div class="details">
-										<a href="blog-single.html">
-											<h6>Asteroids telescope</h6>
-										</a>
-										<p>02 Hours ago</p>
-									</div>
-								</div>
-							</div>
 						</div>
 					</div>
 				</div>
